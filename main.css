@@ -948,17 +948,10 @@ img {
     margin-right: 37px;
   }
 
-  .header__navigation-item {
-    padding: 10px 20px;
-  }
-
-  .header__navigation-item:hover {
-    background-color: #794aff22;
-    border-radius: 8px;
-    text-align: center;
-  }
-
+  
+  
   .header__navigation-link {
+    padding: 10px 20px;
     font-size: 15px;
     color: #101828;
     font-weight: 400;
@@ -966,6 +959,9 @@ img {
 
   .header__navigation-link:hover {
     color: #794aff;
+    background-color: #794aff22;
+    border-radius: 8px;
+    text-align: center;
 
   }
 
