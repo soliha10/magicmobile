@@ -28,6 +28,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: 'Rubik', sans-serif;
@@ -467,6 +471,14 @@ img {
 }
 
 /* BOOK  */
+
+.book {
+  background-image: url("./images/book-bg.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: calc(50%) calc(85%);
+}
+
 .book-inner {
   padding-block: 60px 26px;
 }
@@ -518,7 +530,7 @@ img {
   font-style: normal;
   font-weight: normal;
   color: #101828;
-  border: 1px solid #f9fafb ;
+  border: 1px solid #f9fafb;
 }
 
 .address-link {
@@ -535,6 +547,7 @@ img {
   border-radius: 14px;
   border: 1px solid #9B9B9B63;
   box-shadow: 0px 12px 16px 0px #0000001a;
+  background-color: #fff;
   transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
 }
 
@@ -849,6 +862,11 @@ img {
     width: 580px;
   }
 
+  .book {
+    background-size: 750px;
+    background-position: center calc(92%);
+  }
+
   .book-short-info {
     font-size: 15px;
   }
@@ -929,6 +947,7 @@ img {
   .header__navigation-item {
     padding: 10px 20px;
   }
+
   .header__navigation-item:hover {
     background-color: #794aff22;
     border-radius: 8px;
@@ -940,6 +959,7 @@ img {
     color: #101828;
     font-weight: 400;
   }
+
   .header__navigation-link:hover {
     color: #794aff;
 
@@ -999,6 +1019,7 @@ img {
     padding-block: 18px;
     transition: 0.4s;
   }
+
   .hero-link:hover {
     opacity: 0.6;
   }
@@ -1043,9 +1064,11 @@ img {
   .services-info {
     font-size: 14px;
   }
+
   .services-link {
     transition: background-color 0.3s;
   }
+
   .services-link:hover {
     background-color: #9f7dff;
   }
@@ -1114,12 +1137,20 @@ img {
   .question-item {
     font-size: 20px;
   }
+
   .question-name {
     transition: color 0.4s;
   }
+
   .question-name:hover {
     color: #794aff;
   }
+
+  .book {
+    background-size: 530px;
+    background-position: right;
+  }
+
   .book-inner {
     display: flex;
     justify-content: space-between;
@@ -1137,19 +1168,22 @@ img {
     width: 476px;
     transition: border 0.3s;
   }
+
   .addres-item:hover {
     border: 1px solid #794aff;
   }
+
   .address-link {
     transition: color 0.3s;
   }
+
   .address-link:hover {
     color: #794aff;
   }
 
   .book-form {
     width: 500px;
-    margin: 30px 0 0 ;
+    margin: 30px 0 0;
     padding: 50px 50px 30px;
   }
 
@@ -1170,6 +1204,7 @@ img {
     width: 233px;
     transition: background-color 0.3s, color 0.3s;
   }
+
   .article-link:hover {
     background-color: #000;
     color: #fff;
