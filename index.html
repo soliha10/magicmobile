@@ -40,7 +40,7 @@
               </li>
             </ul>
           </nav>
-          <a class="site-header__book-link link-unstyled" href="#book_article" target="blank">Book appointment</a>
+          <a class="site-header__book-link link-unstyled" href="#booking" target="blank">Book appointment</a>
         </div>
 
       </div>
@@ -248,17 +248,17 @@
             </address>
           </div>
 
-          <form class="book-form" autocomplete="off">
-            <label class="book-label" for="">Your full name</label>
+          <form id="booking" class="book-form" autocomplete="off">
+            <label class="book-label" for="">Your full name <span class="book-label-required">*</span></label>
             <input class="book-input" type="text" name="user_fullname" aria-label="Enter your fullname "
               placeholder="Enter your full name " required>
-            <label class="book-label" for="">Your phone number</label>
+            <label class="book-label" for="">Your phone number <span class="book-label-required">*</span></label>
             <input class="book-input" type="tel" name="user_phone-number" aria-label="Enter your phone number"
               placeholder="Enter your phone number" required>
             <label class="book-label" for="">Your email</label>
             <input class="book-input" type="email" name="user_email" aria-label="Enter your email address"
               placeholder="Enter your email address">
-            <label class="book-label" for="">Please select services</label>
+            <label class="book-label" for="">Please select services <span class="book-label-required">*</span></label>
             <select class="book-select" name="servces" id="">
               <option class="book-option" value="">Select Option</option>
               <option class="book-option" value="Diamond detailing">Diamond detailing</option>

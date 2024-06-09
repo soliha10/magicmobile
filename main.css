@@ -558,6 +558,10 @@ img {
   line-height: 1.8;
 }
 
+.book-label-required {
+  color: #ff0000;
+}
+
 .book-input,
 .book-select {
   background-color: #fafafa;
